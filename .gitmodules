@@ -1,0 +1,6 @@
+[submodule "surf"]
+	path = surf
+	url = https://github.com/3top1a/surf
+[submodule "st"]
+	path = st
+	url = https://github.com/3top1a/st
