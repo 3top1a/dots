@@ -212,12 +212,13 @@ bar {
         #status_command py3status -c ~/.config/i3status/config
         font pango:monospace 8
         colors {
-        	background #090537
-        	separator #AF7983
-        	statusline #C7C6C3
-    		focused_workspace #090537 #AF7983 #090537
-    		active_workspace #090537 #AF7983 #AF7983
-    		inactive_workspace #AF7983 #090537 #AF7983
+        	background #272727
+        	separator #CA231C
+        	statusline #CA231C
+        	border #272727
+    		focused_workspace #272727 #CA231C #272727 #272727
+    		active_workspace #272727 #CA231C #CA231C #272727
+    		inactive_workspace #CA231C #272727 #CA231C #272727
         }
 }
 
@@ -233,7 +234,7 @@ for_window [class="Xfce4-appfinder"] floating enable
 for_window [class="^.*"] border pixel 5
 smart_gaps on
 
-gaps inner 5
+gaps inner 2
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
